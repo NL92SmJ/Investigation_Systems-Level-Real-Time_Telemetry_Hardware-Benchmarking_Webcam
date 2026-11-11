@@ -1,0 +1,5 @@
+Phase,Avg FPS,FPS StdDev (Jitter),5% Lows FPS,Lat Ø (ms),Lat Max (ms),Peak VRAM (MB),Peak RAM (MB),Max Temp (°C),GPU Load (%)
+Phase 1 (Baseline CPU),31.19,11.13,24.96,0.0,0.0,0.0,867.25,33,24.2
+Phase 2 (GPU Transfer),31.19,9.76,24.87,0.51,79.61,5.27,990.53,35,5.3
+Phase 3 (AI-Upscaling),25.18,1.38,23.59,19.61,142.99,63.32,1514.34,48,54.8
+Phase 4 (ESPCN AI-Upscaling),19.84,1.02,19.4,30.99,148.22,52.84,1344.81,56,65.2
